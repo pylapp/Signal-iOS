@@ -57,6 +57,9 @@ public class ProfileDetailLabel: UIStackView {
         self.layoutMargins = .zero
         self.isAccessibilityElement = true
         self.accessibilityLabel = attributedTitle.string
+        if showDetailDisclosure {
+            self.accessibilityTraits = .button
+        }
 
         // Make the icon an attributed string attachment so that it
         //  1. scales with Dynamic Type.
