@@ -6090,6 +6090,7 @@
 		948B2FC201146EF3BA459226 /* Pods_SignalServiceKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SignalServiceKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		94A685625E25E6F3EE3CC812 /* Pods-SignalUITests.testable release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SignalUITests.testable release.xcconfig"; path = "Target Support Files/Pods-SignalUITests/Pods-SignalUITests.testable release.xcconfig"; sourceTree = "<group>"; };
 		954AEE681DF33D32002E5410 /* ContactsPickerTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactsPickerTest.swift; sourceTree = "<group>"; };
+		95C27FCA2FBB0A9B009C8F82 /* SignalDebug.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SignalDebug.entitlements; sourceTree = "<group>"; };
 		A11CD70C17FA230600A2D1B1 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		A163E8AA16F3F6A90094D68B /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		A1C32D4D17A0652C000A904E /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
@@ -12226,6 +12227,7 @@
 		D221A093169C9E5E00537ABF /* Signal */ = {
 			isa = PBXGroup;
 			children = (
+				95C27FCA2FBB0A9B009C8F82 /* SignalDebug.entitlements */,
 				F94D12FD28BD0DD900B2C478 /* Accessibility */,
 				B91751C52EC552B100FF7A9C /* AppIcons */,
 				5045F44129E0DAA400058E5F /* AppLaunch */,
@@ -16168,7 +16170,6 @@
 					};
 					453518671FC635DD00210559 = {
 						CreatedOnToolsVersion = 9.2;
-						DevelopmentTeam = U68MSDN6DR;
 						LastSwiftMigration = 1020;
 						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
@@ -20960,6 +20961,7 @@
 				CODE_SIGN_ENTITLEMENTS = SignalNSE/SignalNSE.entitlements;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 9363PZ22AY;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -21615,6 +21617,7 @@
 				CODE_SIGN_ENTITLEMENTS = SignalShareExtension/SignalShareExtension.entitlements;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 9363PZ22AY;
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -21774,7 +21777,7 @@
 				);
 				OTHER_SWIFT_FLAGS = "$(inherited) -DTESTABLE_BUILD";
 				SDKROOT = iphoneos;
-				SIGNAL_BUNDLEID_PREFIX = org.whispersystems;
+				SIGNAL_BUNDLEID_PREFIX = info.pylapp;
 				SIGNAL_MERCHANTID = org.signalfoundation;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_ENABLE_EXPLICIT_MODULES = NO;
@@ -21815,6 +21818,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = Signal/Signal.entitlements;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9363PZ22AY;
 				ENABLE_TESTABILITY = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_OPTIMIZATION_LEVEL = 3;
@@ -22035,7 +22039,7 @@
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				OTHER_SWIFT_FLAGS = "$(inherited) -DTESTABLE_BUILD";
 				SDKROOT = iphoneos;
-				SIGNAL_BUNDLEID_PREFIX = org.whispersystems;
+				SIGNAL_BUNDLEID_PREFIX = info.pylapp;
 				SIGNAL_MERCHANTID = org.signalfoundation;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_ENABLE_EXPLICIT_MODULES = NO;
@@ -22076,6 +22080,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = Signal/Signal.entitlements;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9363PZ22AY;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				"EXCLUDED_SOURCE_FILE_NAMES[arch=*]" = Signal/test/Assets/input_video.mp4;
 				GCC_OPTIMIZATION_LEVEL = 3;
@@ -22301,7 +22306,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_SWIFT_FLAGS = "$(inherited) -DTESTABLE_BUILD -DUSE_DEBUG_UI";
 				SDKROOT = iphoneos;
-				SIGNAL_BUNDLEID_PREFIX = org.whispersystems;
+				SIGNAL_BUNDLEID_PREFIX = info.pylapp;
 				SIGNAL_MERCHANTID = org.signalfoundation;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_ENABLE_EXPLICIT_MODULES = NO;
@@ -22404,7 +22409,7 @@
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
-				SIGNAL_BUNDLEID_PREFIX = org.whispersystems;
+				SIGNAL_BUNDLEID_PREFIX = info.pylapp;
 				SIGNAL_MERCHANTID = org.signalfoundation;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_ENABLE_EXPLICIT_MODULES = NO;
@@ -22444,10 +22449,11 @@
 				CLANG_ADDRESS_SANITIZER_CONTAINER_OVERFLOW = YES;
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_UNDEFINED_BEHAVIOR_SANITIZER_INTEGER = YES;
-				CODE_SIGN_ENTITLEMENTS = Signal/Signal.entitlements;
+				CODE_SIGN_ENTITLEMENTS = Signal/SignalDebug.entitlements;
 				COPY_PHASE_STRIP = NO;
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 9363PZ22AY;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				"EXCLUDED_SOURCE_FILE_NAMES[arch=*]" = Signal/test/Assets/input_video.mp4;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -22487,6 +22493,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = "Signal/Signal-AppStore.entitlements";
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9363PZ22AY;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				"EXCLUDED_SOURCE_FILE_NAMES[arch=*]" = Signal/test/Assets/input_video.mp4;
 				GCC_OPTIMIZATION_LEVEL = 3;
