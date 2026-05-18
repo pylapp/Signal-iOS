@@ -1,3 +1,31 @@
+Disclaimer
+==========
+
+> [!CAUTION]
+>
+> ( ˶°ㅁ°) !! **This is a fork of [signalapp/Signal-iOS](https://github.com/signalapp/Signal-iOS)**
+> 
+> The aim of this project is to submit evolutions.
+> This is not the official repository of the app.
+> You should not submit bug reports, issues or pull requests to this fork.
+> 
+> Last constributions from here:
+> - `Update script command to run to update localizables` ([#6318](https://github.com/signalapp/Signal-iOS/pull/6318))
+> - `Fix missing accessibility label for buttons of attachement view` ([#6316](https://github.com/signalapp/Signal-iOS/pull/6316))
+> - `Fix vocalization without parasites for thread title` ([#6314](https://github.com/signalapp/Signal-iOS/pull/6314))
+> - `Fix mute button accessibility label of Signal thread` ([#6312](https://github.com/signalapp/Signal-iOS/pull/6312))
+> - `Fix missing accessibility trait link for ToS button in splash views` ([#6310](https://github.com/signalapp/Signal-iOS/pull/6310))
+> - `Text of number of members in group in common in settings view does not follow DynamicTypeSize` ([#6272](https://github.com/signalapp/Signal-iOS/pull/6272))
+> - `Fix missing button trait for Voice Over for disclosing items in contact about sheet` ([#6270](https://github.com/signalapp/Signal-iOS/pull/6270))
+> - `Remove decorative image from groups memberships label in conversation header and labels for Voice Over` ([#6268](https://github.com/signalapp/Signal-iOS/pull/6268))
+> - `Missing .isLink trait for FAQ reference in support page` ([#6266](https://github.com/signalapp/Signal-iOS/pull/6266))
+> - `Fix vocalized label of QrCode in security number page` ([#6264](https://github.com/signalapp/Signal-iOS/pull/6264))
+> - `Fix missing label for additional buttons of MOB balance in payment view` ([#6262](https://github.com/signalapp/Signal-iOS/pull/6262))
+> - `Fix missing isLink trait on helper cards embeded hyperlinks` ([#6260](https://github.com/signalapp/Signal-iOS/pull/6260))
+> - `Hide from Voice Over decorative image in backup onboarding view` ([#6258](https://github.com/signalapp/Signal-iOS/pull/6258))
+> - `Voice Over does not vocalize correctly the hours` ([#6256](https://github.com/signalapp/Signal-iOS/pull/6256))
+> - `Fix vocalization of badges for tab bar item` ([#6254](https://github.com/signalapp/Signal-iOS/pull/6254))
+
 # Signal iOS
 
 Signal is a free and open source messaging app for simple private communication with friends.
